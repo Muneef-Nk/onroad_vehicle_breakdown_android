@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+    tools:context=".forget">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="317dp"
+            android:layout_height="59dp"
+            android:alpha=".7"
+
+            android:background="@color/white"
+
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:gravity="center_horizontal|center_vertical"
+            android:hint="Enter your Email"
+
+
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textColorHint="#846868"
+            android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="SEND"
+            android:textAlignment="center" />
+    </TableRow>
+</LinearLayout>

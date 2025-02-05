@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.onroadvehicle">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OnRoadVehicle"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".forget"
+            android:exported="false" />
+        <activity
+            android:name=".custom5"
+            android:exported="false" />
+        <activity
+            android:name=".PublicViewMechanic"
+            android:exported="false" />
+        <activity
+            android:name=".PublicViewPetrolPump"
+            android:exported="false" />
+        <activity
+            android:name=".NearestServiceCenter"
+            android:exported="false" />
+        <activity
+            android:name=".check_status"
+            android:exported="false" />
+        <activity
+            android:name=".Send_request"
+            android:exported="false" />
+        <activity
+            android:name=".Nearest_mechanic"
+            android:exported="false" />
+        <activity
+            android:name=".petrol_pump"
+            android:exported="false" />
+        <activity
+            android:name=".service_center"
+            android:exported="false" />
+        <activity
+            android:name=".public_home"
+            android:exported="false" />
+        <activity
+            android:name=".custom4"
+            android:exported="false" />
+        <activity
+            android:name=".custom3"
+            android:exported="false" />
+        <activity
+            android:name=".feedback"
+            android:exported="false" />
+        <activity
+            android:name=".View_mechanic"
+            android:exported="false" />
+        <activity
+            android:name=".View_result_sarvice_center"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".UserHome"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <service android:name=".LocationService" />
+
+        <activity
+            android:name=".ip"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
